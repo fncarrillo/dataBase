@@ -1,0 +1,6 @@
+Una base de datos posee un nombre y un cotejamiento de caracteres,
+donde cada uno se difiere segun la región, por ejemplo:
+el caracter Ñ se encuentra entre los caracteres españoles
+pero no entre los caracteres ingleses.
+
+CREATE DATABASE apuntesUdemySQL;

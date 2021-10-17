@@ -1,0 +1,48 @@
+Los motores de BD son herramientas que nos ayudan a buscar, organizar y crear esos datos.
+Ejemplos de motores:
+-MySQL
+-Microsoft SQL Server
+-Oracle
+-DB2
+-Maria DB
+-Mongo DB
+
+Una base de datos es una gran coleccion de datos, ordenada y organizada.
+Estas se conforman por tablas interrelacionadas, donde cada tabla tiene un nombre para ser identificada, 
+y a su vez tienen diversos tipos y cantidades de campos (columna).
+
+Tipos de datos
+
+-Números Enteros
+
+BIGINT: 8 Bytes 
+[-9223372036854775808,9223372036854775807] o [0;18446744073709551615]
+INT: 4 Bytes
+[-2147483648;2147483647] o [0;4294967295]
+MEDIUMINT: 3 Bytes 
+[-8388608;8388607] o [0;16777216] 
+SMALLINT: 2 Bytes
+[-32768;32767] o [0;65535]
+TINYINT: 1 Byte 
+[-128;127] o [0;255]
+
+-Números Flotantes
+
+DECIMAL: almacena los números como cadenas.
+FLOAT (m,d): m es el número de dígitos de la parte entera y d la cantidad de dígitos de la parte decimal.
+DOUBLE: idem float, pero mayor rango de dígitos -> más preciso.
+BIT: Bool o Boolean, admite los valores 0 y 1.
+
+-Cadenas Caracteres y Caracteres
+
+VARCHAR: 
+texto con longitud variable.
+CHAR: 
+es un varchar que siempre posee la longitud indicada.
+TINYTEXT: 
+texto con una capacidad de 255 caracteres, no muy recomendable.
+TEXT
+MEDIUMTEXT
+LONGTEXT
+
+-Dato Numerado

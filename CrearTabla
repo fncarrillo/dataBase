@@ -1,0 +1,31 @@
+Una tabla posee ciertos tipos de datos que tendra cada fila.
+Es una buena práctica que cada tabla posea una PK.
+
+Cada fila posee:
+-Nombre: nombre del registro.
+-TipoDato: numerico entero/real, texto, etc.
+-Longitud/Valroes: podemos a un tipo de dato restringirle la longitud.
+-ValorPredeterminado: valor que pue pueda llegar a tener en caso de no recibir nada.
+-Cotejamiento: conjunto de caracteres que almacenará.
+-Atributos: binario, signado, no signado, etc.
+-Nulo: habilitar si el campo puede o no ser nulo.
+-Índice: marca si el campo es un tipo de indice.
+-Auto_Increment: habilita si el campo se autoincrementará.
+-Comentario
+-Virtualidad
+-MediaType
+
+Ejemplo: SQL
+
+CREATE TABLE `apuntesUdemySQL`.`clientes` 
+( 
+  `cli_Id` MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT , 
+  `cli_RazonSocial` VARCHAR(60) NULL DEFAULT NULL , 
+  `cli_Email` VARCHAR(200) NULL , 
+  `cli_Estado` TINYINT UNSIGNED NOT NULL , 
+  `cli_PaisID` TINYINT NOT NULL , 
+  `cli_Documento` INT UNSIGNED NOT NULL , 
+  PRIMARY KEY (`cli_Id`), 
+  UNIQUE `cli_Documento` (`cli_Documento`)
+) ENGINE = InnoDB; 
+

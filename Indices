@@ -1,0 +1,12 @@
+Un índice debe permitirme poder encontrar cada registro y accederlos de una manera mucho más selecta y rápida.
+
+Existen 3 tipos:
+
+-Primary Key: Clave Principal de una tabla
+    Es un valor único que NO puede repetirse y generalmente es autonumérico.
+
+-Unique Key: Clave Única
+    Es un valor único que NO puede repetirse y no es autonumérico.
+
+-Key: Clave Común
+    Admite duplicados.
