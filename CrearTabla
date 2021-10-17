@@ -27,5 +27,4 @@ CREATE TABLE `apuntesUdemySQL`.`clientes`
   `cli_Documento` INT UNSIGNED NOT NULL , 
   PRIMARY KEY (`cli_Id`), 
   UNIQUE `cli_Documento` (`cli_Documento`)
-) ENGINE = InnoDB; 
-
+) ENGINE = InnoDB;
